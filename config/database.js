@@ -102,7 +102,7 @@
 
 module.exports = ({ env }) => ({
   connection: {
-    client: "mysql",
+    client: "postgres",
     connection: {
       host: env("DATABASE_HOST", "db.ghemsayisbshzkyeywxj.supabase.co"),
       port: env.int("DATABASE_PORT", 5432),
